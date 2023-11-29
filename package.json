@@ -1,0 +1,33 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "This is Core React ",
+
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RohiniReddyMarthala/core-react.git"
+  },
+  "keywords": [],
+  "author": "Rohini Reddy Marthala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RohiniReddyMarthala/core-react/issues"
+  },
+  "homepage": "https://github.com/RohiniReddyMarthala/core-react#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 3 versions"
+  ]
+}
