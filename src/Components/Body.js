@@ -9,7 +9,7 @@ const Body=()=>{
   const [filterRes, setFilterRes] = useState([]);
   const [searchText, setSearchText] = useState("");
 
-  console.log("component rendered");
+  // console.log("component rendered");
 
   useEffect(()=>{
     fetchData();
