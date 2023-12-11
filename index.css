@@ -78,3 +78,14 @@
     padding: 30px;
     
 }
+
+.user-card{
+    padding: 10px;
+    border: 1px solid black;
+    
+}
+
+.dum{
+    width: 150px;
+    display: block;
+}

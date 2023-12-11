@@ -20,7 +20,6 @@ const Body=()=>{
     const data = await fetch(FETCH_API_URL);
     const json = await data.json();
 
-    console.log(json);
     //optional chaining
     const  restaurantData = json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
 

@@ -6,7 +6,6 @@ import { useParams } from 'react-router-dom';
 const RestaurantMenu = () => {
 
     const [resInfo, setResInfo] = useState(null);
-
     const { resId } = useParams();
 
     useEffect(()=>{
@@ -16,7 +15,6 @@ const RestaurantMenu = () => {
     const fetchMenu = async ()=>{
         const menuData= await fetch(MENU_API_URL + resId);
         const menuJson= await menuData.json();
-
         console.log(menuJson);
         setResInfo(menuJson.data);
     };
